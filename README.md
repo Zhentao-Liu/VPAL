@@ -27,7 +27,7 @@ Use 40 training views (uniformly spaced) to recover complete 133 views. Our meth
 
 https://github.com/Zhentao-Liu/VPAL/assets/81148025/fdff2da1-ba80-49ac-a264-02b8d668f499
 
-But if we do not use vessel probability to guide our model training, the decomposition will become blurry and the view synthesis will deteriorate a lot especially for the dynamics one.
+But if we do not use vessel probability to guide our model training, the decomposition will become blurry and the view synthesis will deteriorate a lot especially for the dynamic one.
 
 
 ![reconstruction_comparision](https://github.com/Zhentao-Liu/VPAL/assets/81148025/60092920-6833-4c46-98b6-1462f2c49a65)
@@ -71,7 +71,7 @@ We will release our code and some test cases once our paper is accepted. We will
 Thanks for all these inspiring work.
 
 # Citation
-If you think our work and repo are intererting, you may cite our paper.
+If you think our work and repo are interesting, you may cite our paper.
 
       @ARTICLE{VPAL,
       title={3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning}, 
