@@ -22,7 +22,7 @@ agent flow, and significantly improves the reconstruction quality. Our model is 
 
 
 
-# Intersting Results
+# Interesting Results
 ## Self-Supervised Static-Dynamic Decomposition
 
 ## High-Quality Vessel Reconstructions
