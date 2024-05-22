@@ -24,10 +24,11 @@ agent flow, and significantly improves the reconstruction quality. Our model is 
 # Interesting Results
 ## Self-Supervised Static-Dynamic Decomposition
 
-https://github.com/Zhentao-Liu/VPAL/assets/81148025/68b798f6-5393-4d48-9b23-9e738ca3e066
+
+https://github.com/Zhentao-Liu/VPAL/assets/81148025/4320cfc7-f4aa-41c6-979b-e76a01c2a2e7
+
 
 Use 40 training views (uniformly spaced) to recover complete 133 views. Our methods achieves self-supervised static-dynamic decomposition and high-quality novel view synthesis.
-
 
 
 
