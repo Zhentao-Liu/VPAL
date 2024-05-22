@@ -30,7 +30,8 @@ https://github.com/Zhentao-Liu/VPAL/assets/81148025/fdff2da1-ba80-49ac-a264-02b8
 
 But if we do not use vessel probability to guide our model training, the decomposition will become blurry and the view synthesis will deteriorate a lot especially for the dynamics one.
 
-![vesselreconstruction](https://github.com/Zhentao-Liu/VPAL/assets/81148025/500077e0-5352-428b-8934-ecf33bfe036a)
+
+![reconstruction_comparision](https://github.com/Zhentao-Liu/VPAL/assets/81148025/60092920-6833-4c46-98b6-1462f2c49a65)
 
 Our vessel probability captures meaningful vascular patterns, assisting in providing high-quality vessel reconstruction. The reconstruction will deteriorate a lot without vessel probability (naive solution). All results here come from case #1.
 
