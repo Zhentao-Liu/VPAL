@@ -59,7 +59,7 @@ Ablation results on vessel reconstruction with 40 training views from case #1.
 
 https://github.com/Zhentao-Liu/VPAL/assets/81148025/b4dd222c-df3d-443b-9db9-667dfd200ad0
 
-Ablation results on vessel reconstruction with 40 training views from case #15. Especially look at discontinuous initial frames of (c), resulting from training frames overfitting issue.
+Ablation results on view synthesis with 40 training views from case #15. Especially look at discontinuous initial frames of (c), resulting from training frames overfitting issue.
 
 # Releasing
 We will release our code and some test cases once our paper is accepted. We will continue updating this repo. To be continue. If you have any question, just reach out to the author: liuzht2022@shanghaitech.edu.cn
