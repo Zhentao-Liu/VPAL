@@ -3,7 +3,9 @@ This is the official repo of our paper "3D Vessel Reconstruction from Sparse-Vie
 
 
 
-<font size=4>[Arxiv](https://arxiv.org/abs/2405.10705)</font>
+<font size=40>[Arxiv](https://arxiv.org/abs/2405.10705)</font>
+
+
 # Citation
 Please cite our paper if you think it is interesting.
 
