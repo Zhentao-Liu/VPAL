@@ -11,13 +11,26 @@ DSA (Digital Subtraction Angiography) is one of the gold standards in vascular d
   <source src="./assets/dsaimaging.mp4" type="video/mp4">
 </video>
 
-## Our method
+## Our Method
 To achieve a holistic understanding of vessel anatomy, the DSA sequence is then utilized to reconstruct 3D vascular structures. However, DSA reconstruction presents a significant challenge due to the dynamic imaging nature, showcasing varying blood flow states at different timestamps. In this study, we propose to use a time-agnostic vessel probability field to solve this problem effectively. Our approach, termed as vessel probability guided
 attenuation learning, represents the DSA imaging as a complementary weighted combination of static and dynamic attenuation fields, with the weights derived from the vessel probability field. Functioning as a dynamic mask, vessel probability provides proper gradients for both static and dynamic fields adaptive to different scene types. This mechanism facilitates a self-supervised decomposition between static backgrounds and dynamic contrast
-agent flow, and significantly improves the reconstruction quality. Our model is trained by minimizing the disparity between synthesized projections and real captured DSA images. We further employ two training strategies to improve our reconstruction quality: (1) coarse-to-fine progressive training to achieve better geometry and (2) temporal perturbed rendering loss to enforce temporal consistency.
+agent flow, and significantly improves the reconstruction quality. Our model is trained by minimizing the disparity between synthesized projections and real captured DSA images. We further employ two training strategies to improve our reconstruction quality: (1) coarse-to-fine progressive training to achieve better geometry and (2) temporal perturbed rendering loss to enforce temporal consistency.
+
+![](./assest/mainflowchart_2.pdf)
+
+# Intersting Results
+## Self-Supervised Static-Dynamic Decomposition
+
+## High-Quality Vessel Reconstruction
+
+## High-Quality Renderings
+
+## Ablations
 
 
 
+# Releasing
+We will release our code and some test cases once our paper is acceptted. I will continue updating this repo. If you have any question, just reach out to me: liuzht2022@shanghaitech.edu.cn
 
 # Citation
 Please cite our paper if you think it is interesting.
