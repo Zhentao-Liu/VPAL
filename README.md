@@ -52,8 +52,7 @@ Use 40 training views to recover complete 133 views. Our methods achieves high-q
 
 ## Ablations
 
-![ablation_reconstruction](https://github.com/Zhentao-Liu/VPAL/assets/81148025/0864ca3d-d87e-4a6b-838a-38e3690242c8)
-
+<img src="https://github.com/Zhentao-Liu/VPAL/assets/81148025/0864ca3d-d87e-4a6b-838a-38e3690242c8" alt="ablation_reconstruction" width="500" height="300"/>
 
 Ablation results on vessel reconstruction with 40 training views from case #1. 
 
@@ -67,7 +66,7 @@ We will release our code and some test cases once our paper is accepted. We will
 # Related Links
 - Pioneer NeRF-based framework for CBCT reconstruction: [NAF](https://github.com/Ruyi-Zha/naf_cbct), [SNAF](https://arxiv.org/abs/2211.17048)
 - Pioneer NeRF-based framework for DSA reconstruction: [TiAVox](https://arxiv.org/abs/2309.02318)
-- Pioneer 3DGS-based framework for DSA reconstruction: [TOGS](https://arxiv.org/abs/2403.19586)
+- Recent 3DGS-based framework for DSA reconstruction: [TOGS](https://arxiv.org/abs/2403.19586)
   
 Thanks for all these inspiring work.
 
