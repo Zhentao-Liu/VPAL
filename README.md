@@ -59,16 +59,19 @@ Ablation results on vessel reconstruction with 40 training views from case #1.
 
 https://github.com/Zhentao-Liu/VPAL/assets/81148025/b4dd222c-df3d-443b-9db9-667dfd200ad0
 
-Ablation results on vessel reconstruction with 40 training views from case #15. Especially look at initial frames of (c), resulting from training frames overfitting issue.
+Ablation results on vessel reconstruction with 40 training views from case #15. Especially look at discontinuous initial frames of (c), resulting from training frames overfitting issue.
 
 # Releasing
-We will release our code and some test cases once our paper is accepted. I will continue updating this repo. To be continue. If you have any question, just reach out to me: liuzht2022@shanghaitech.edu.cn
+We will release our code and some test cases once our paper is accepted. We will continue updating this repo. To be continue. If you have any question, just reach out to me: liuzht2022@shanghaitech.edu.cn
 
 # Related Links
-
+- Pioneer NeRF-based framework for CBCT reconstruction: [NAF](https://github.com/Ruyi-Zha/naf_cbct), [SNAF](https://arxiv.org/abs/2211.17048)
+- Pioneer NeRF-based framework for DSA reconstruction: [TiAVox](https://arxiv.org/abs/2309.02318)
+- Recent 3DGS-based framework for DSA reconstruction: [TOGS](https://arxiv.org/abs/2403.19586)
+Thanks for all these inspiring work.
 
 # Citation
-Please cite our paper if you think it is interesting.
+If you think our work and repo are intererting, you may cite our paper.
 
       @ARTICLE{VPAL,
       title={3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning}, 
