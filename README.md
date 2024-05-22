@@ -16,7 +16,7 @@ To achieve a holistic understanding of vessel anatomy, the DSA sequence is then 
 attenuation learning, represents the DSA imaging as a complementary weighted combination of static and dynamic attenuation fields, with the weights derived from the vessel probability field. Functioning as a dynamic mask, vessel probability provides proper gradients for both static and dynamic fields adaptive to different scene types. This mechanism facilitates a self-supervised decomposition between static backgrounds and dynamic contrast
 agent flow, and significantly improves the reconstruction quality. Our model is trained by minimizing the disparity between synthesized projections and real captured DSA images. We further employ two training strategies to improve our reconstruction quality: (1) coarse-to-fine progressive training to achieve better geometry and (2) temporal perturbed rendering loss to enforce temporal consistency.
 
-![](./assest/mainflowchart_2.pdf)
+![](./assest/flowchart.png)
 
 # Intersting Results
 ## Self-Supervised Static-Dynamic Decomposition
