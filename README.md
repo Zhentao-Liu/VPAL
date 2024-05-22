@@ -27,6 +27,9 @@ agent flow, and significantly improves the reconstruction quality. Our model is 
 
 ## High-Quality Vessel Reconstructions
 
+![](./assest/vesselreconstruction.png)
+
+
 ## High-Quality Renderings
 
 ## Ablations
