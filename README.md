@@ -51,15 +51,21 @@ https://github.com/Zhentao-Liu/VPAL/assets/81148025/0a505484-fe85-4ca5-adc2-564f
 
 Use 40 training views to recover complete 133 views. Our methods achieves high-quality novel view synthesis compared to other methods.
 
-
-
-
 ## Ablations
 
+![ablation_reconstruction](https://github.com/Zhentao-Liu/VPAL/assets/81148025/dd062bf0-7173-4c24-aebe-713e0bba19e4)
 
+Ablation results on vessel reconstruction with 40 training views from case #1. 
+
+https://github.com/Zhentao-Liu/VPAL/assets/81148025/b4dd222c-df3d-443b-9db9-667dfd200ad0
+
+Ablation results on vessel reconstruction with 40 training views from case #15. Especially look at initial frames of (c), resulting from training frames overfitting issue.
 
 # Releasing
 We will release our code and some test cases once our paper is accepted. I will continue updating this repo. To be continue. If you have any question, just reach out to me: liuzht2022@shanghaitech.edu.cn
+
+# Related Links
+
 
 # Citation
 Please cite our paper if you think it is interesting.
