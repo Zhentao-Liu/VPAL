@@ -1,8 +1,9 @@
 # Vessel Probability Guided Attenuation Learning
 This is the official repo of our paper "3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning". We will release our code and some test cases once our paper is acceptted.
 
-<span style="font-size: 20px;">Arxiv</span>(https://arxiv.org/abs/2405.10705)
 
+
+<font size=4>[Arxiv](https://arxiv.org/abs/2405.10705)</font>
 # Citation
 Please cite our paper if you think it is interesting.
 
