@@ -24,12 +24,13 @@ agent flow, and significantly improves the reconstruction quality. Our model is 
 # Interesting Results
 ## Self-Supervised Static-Dynamic Decomposition
 
-
 https://github.com/Zhentao-Liu/VPAL/assets/81148025/4320cfc7-f4aa-41c6-979b-e76a01c2a2e7
-
 
 Use 40 training views (uniformly spaced) to recover complete 133 views. Our methods achieves self-supervised static-dynamic decomposition and high-quality novel view synthesis.
 
+https://github.com/Zhentao-Liu/VPAL/assets/81148025/fdff2da1-ba80-49ac-a264-02b8d668f499
+
+But if we do not use vessel probability to guide our model training, the decomposition will become blurry and the view synthesis will deteriorate a lot.
 
 
 
