@@ -32,7 +32,7 @@ agent flow, and significantly improves the reconstruction quality. Our model is 
 ## High-Quality Vessel Reconstructions
 
 ![](./assest/vesselreconstruction.png)
-Vessel reconstruction results from 40 training views. Our method significantly outperforms all the other methods. It produces reconstructions with less noise, more complete vascular topology, and smoother surfaces. For more visualizations, please refer to our paper.
+Vessel reconstruction results from 40 training views. Our method significantly outperforms all the other methods, which looks quite close to the reference one provided by DSA scanner with full 133 views. We produce reconstructions with less noise, more complete vascular topology, and smoother surfaces. For more visualizations, please refer to our paper.
 
 ## High-Quality Renderings
 
