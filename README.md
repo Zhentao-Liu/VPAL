@@ -32,13 +32,13 @@ But if we do not use vessel probability to guide our model training, the decompo
 
 ![reconstruction_comparision](https://github.com/Zhentao-Liu/VPAL/assets/81148025/4b7adec5-5569-420d-9b0f-fea8282423d5)
 
-Our vessel probability captures meaningful vascular patterns, assisting in providing high-quality vessel reconstruction. The reconstruction will deteriorate a lot without vessel probability (naive solution). 
+Our vessel probability captures meaningful vascular patterns, assisting in providing high-quality vessel reconstruction. The reconstruction will deteriorate a lot without vessel probability (naive solution). All results here come from case #1.
 
 ## High-Quality Vessel Reconstructions
 
 ![vesselreconstruction](https://github.com/Zhentao-Liu/VPAL/assets/81148025/66fc3a0c-a124-4b0a-8109-7bb6903f127a)
 
-Vessel reconstruction results from 40 training views. Our method significantly outperforms all the other methods, which looks quite close to the reference one provided by DSA scanner with full 133 views. We produce reconstructions with less noise, more complete vascular topology, and smoother surfaces. For more visualizations, please refer to our paper. All results here come from case #1.
+Vessel reconstruction results from 40 training views. Our method significantly outperforms all the other methods, which looks quite close to the reference one provided by DSA scanner with full 133 views. We produce reconstructions with less noise, more complete vascular topology, and smoother surfaces. For more visualizations, please refer to our paper. 
 
 ## High-Quality Renderings
 
