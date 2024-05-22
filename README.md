@@ -37,7 +37,7 @@ agent flow, and significantly improves the reconstruction quality. Our model is 
 
 
 # Releasing
-We will release our code and some test cases once our paper is accepted. I will continue updating this repo. If you have any question, just reach out to me: liuzht2022@shanghaitech.edu.cn
+We will release our code and some test cases once our paper is accepted. I will continue updating this repo. To be continue. If you have any question, just reach out to me: liuzht2022@shanghaitech.edu.cn
 
 # Citation
 Please cite our paper if you think it is interesting.
