@@ -36,7 +36,7 @@ Our vessel probability captures meaningful vascular patterns, assisting in provi
 
 ## High-Quality Vessel Reconstructions
 
-![vesselreconstruction](https://github.com/Zhentao-Liu/VPAL/assets/81148025/66fc3a0c-a124-4b0a-8109-7bb6903f127a)
+![vesselreconstruction](https://github.com/Zhentao-Liu/VPAL/assets/81148025/237cb88e-0d39-45b6-8028-0c0c36f31518)
 
 Vessel reconstruction results from 40 training views. Our method significantly outperforms all the other methods, which looks quite close to the reference one provided by DSA scanner with full 133 views. We produce reconstructions with less noise, more complete vascular topology, and smoother surfaces. For more visualizations, please refer to our paper. 
 
