@@ -44,7 +44,9 @@ Vessel reconstruction results from 40 training views. Our method significantly o
 
 https://github.com/Zhentao-Liu/VPAL/assets/81148025/c360bb5c-6e25-4eaf-a841-4308e3487917
 
-https://github.com/Zhentao-Liu/VPAL/assets/81148025/a6440eed-1f66-4f7f-993a-f8365547158b
+
+https://github.com/Zhentao-Liu/VPAL/assets/81148025/f88d8621-32b3-4484-a8b0-cb34bc04b0fc
+
 
 Use 40 training views to recover complete 133 views. Our methods achieves high-quality novel view synthesis compared to other methods.
 
