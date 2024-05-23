@@ -64,6 +64,7 @@ Ablation results on view synthesis with 40 training views from case #15. Especia
 We will release our code and some test cases once our paper is accepted. We will continue updating this repo. To be continue. If you have any question, just reach out to the author: liuzht2022@shanghaitech.edu.cn
 
 # Related Links
+- Traditional FDK algorithm is implemented based on powerful [Astra-toolbox](https://github.com/astra-toolbox/astra-toolbox)
 - Pioneer NeRF-based framework for CBCT reconstruction: [NAF](https://github.com/Ruyi-Zha/naf_cbct), [SNAF](https://arxiv.org/abs/2211.17048)
 - Pioneer NeRF-based framework for DSA reconstruction: [TiAVox](https://arxiv.org/abs/2309.02318)
 - Recent 3DGS-based framework for DSA reconstruction: [TOGS](https://arxiv.org/abs/2403.19586)
