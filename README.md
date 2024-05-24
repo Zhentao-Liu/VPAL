@@ -69,7 +69,7 @@ We will release our code and some test cases once our paper is accepted. We will
 - Pioneer NeRF-based framework for DSA reconstruction: [TiAVox](https://arxiv.org/abs/2309.02318)
 - Recent 3DGS-based framework for DSA reconstruction: [TOGS](https://arxiv.org/abs/2403.19586)
   
-Thanks for all these inspiring work.
+Thanks for all these great works.
 
 # Citation
 If you think our work and repo are interesting, you may cite our paper.
