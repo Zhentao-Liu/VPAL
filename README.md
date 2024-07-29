@@ -54,7 +54,7 @@ Use 40 training views to recover complete 133 views. Our methods achieves high-q
 
 <img src="https://github.com/Zhentao-Liu/VPAL/assets/81148025/2eef8366-be2a-4f06-a01f-3834d50b8eea" alt="ablation_reconstruction" width="700"/>
 
-Ablation results on vessel reconstruction with 40 training views from case #1. The values labeled below are CD(mm)/HD(mm).
+Ablation results on vessel reconstruction with 40 training views from case #1. The values labeled above are CD(mm)/HD(mm).
 
 https://github.com/Zhentao-Liu/VPAL/assets/81148025/11e812d9-d716-4679-b9b0-399aaec33a53
 
