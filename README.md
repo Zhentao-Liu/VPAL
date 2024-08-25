@@ -67,7 +67,7 @@ We will release our code and some test cases once our paper is accepted. We will
 - Traditional FDK algorithm is implemented based on powerful [Astra-toolbox](https://github.com/astra-toolbox/astra-toolbox)
 - Pioneer NeRF-based framework for CBCT reconstruction: [NAF](https://github.com/Ruyi-Zha/naf_cbct), [SNAF](https://arxiv.org/abs/2211.17048)
 - Pioneer NeRF-based framework for DSA reconstruction: [TiAVox](https://arxiv.org/abs/2309.02318)
-- Recent 3DGS-based framework for DSA reconstruction: [TOGS](https://arxiv.org/abs/2403.19586)
+- Recent 3DGS-based framework for DSA reconstruction: [TOGS](https://github.com/hustvl/TOGS)
   
 Thanks for all these great works.
 
