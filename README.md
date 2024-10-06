@@ -1,4 +1,6 @@
 # VPAL: Vessel Probability Guided Attenuation Learning
+[Zhentao Liu](https://zhentao-liu.github.io/), Huangxuan Zhao, [Wenhui Qin](https://psi.bme.shanghaitech.edu.cn/), Zhenghong Zhou, [Xinggang Wang](https://xwcv.github.io/index.htm), [Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping#:~:text=Professor%20Wenping%20Wang.%20Alberta.%20Dr,%20Wang%20is%20Professor%20of%20Computer), [Xiaochun Lai](https://psi.bme.shanghaitech.edu.cn/), Chuangsheng Zheng, [Dinggang Shen](https://idea.bme.shanghaitech.edu.cn/), and [Zhiming Cui](https://shanghaitech-impact.github.io/)
+
 
 ## [Arxiv](https://arxiv.org/abs/2405.10705)
 
