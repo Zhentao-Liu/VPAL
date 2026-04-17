@@ -41,10 +41,10 @@ pip install nerfacc -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/tor
 
 > **Note:** After installing nerfacc, please comment out the following lines in `nerfacc/estimators/occ_grid.py`:
 > ```python
-> # voxel coordinates [0, 1]^3 -> world
-> x = self.aabbs[lvl, :3] + x * (
->     self.aabbs[lvl, 3:] - self.aabbs[lvl, :3]
-> )
+> # # voxel coordinates [0, 1]^3 -> world
+> # x = self.aabbs[lvl, :3] + x * (
+> #     self.aabbs[lvl, 3:] - self.aabbs[lvl, :3]
+> # )
 > ```
 
 # Dataset
