@@ -57,7 +57,7 @@ After downloading the data, you could run the following command to train your mo
 python train.py -n=case1_30v -c=./conf/VPAL.conf -D=./dataset/case1 --is_train --disable_fixview --disable_fixtime --nviews=30
 ```
 
-You can use nerfacc toolbox to accelerate the training process.
+You can use nerfacc toolbox to accelerate the training process with 3x acceleration.
 
 ```bash
 python train.py -n=case1_30v -c=./conf/VPAL.conf -D=./dataset/case1 --is_train --disable_fixview --disable_fixtime --nviews=30 --occacc
