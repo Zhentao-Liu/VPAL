@@ -40,7 +40,7 @@ pip install nerfacc -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/tor
 ```
 
 # Dataset
-We use two datasets in our experiments. Example data (case #1 in our paper) is provided by this link. 
+We use two datasets in our experiments. Example data (case #1 in our paper) is provided by [this link](https://drive.google.com/drive/folders/1faTv0EU0Y93vWnfv5s2cBTG4GCxIeds0?usp=sharing).
 
 # Usage
 After downloading the data, you could run the following command to train your model.
