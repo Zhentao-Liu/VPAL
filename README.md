@@ -23,19 +23,21 @@ To achieve a holistic understanding of vessel anatomy, the DSA sequence is then 
 In this study, we propose to use a time-agnostic vessel probability field to solve this problem effectively. Our approach, termed as vessel probability guided attenuation learning, represents the DSA imaging as a complementary weighted combination of static and dynamic attenuation fields, with the weights derived from the vessel probability field. Functioning as a dynamic mask, vessel probability provides proper gradients for both static and dynamic fields adaptive to different scene types. This mechanism facilitates a self-supervised decomposition between static backgrounds and dynamic contrast agent flow, and significantly improves the reconstruction quality. Our model is trained by minimizing the discrepency between synthesized projections and real captured DSA images. We further employ two training strategies to improve our reconstruction quality: (1) coarse-to-fine progressive training to achieve better geometry and (2) temporal perturbed rendering loss to enforce temporal consistency.
 
 # Setup
-First clone this repo. And then set up an environment and install packages.
+First clone this repo. Then set up an environment and install packages.
 
-  git clone https://github.com/ShanghaiTech-IMPACT/VPAL.git
-  cd VPAL
-  conda create -n VPAL python=3.8
-  conda activate VPAL
-  pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
-  pip install -r requirements.txt
-  git clone --recursive https://github.com/nvlabs/tiny-cuda-nn
-  cd tiny-cuda-nn/bindings/torch
-  python setup.py install
-  cd ../../..
-  pip install nerfacc
+```bash
+git clone https://github.com/ShanghaiTech-IMPACT/VPAL.git
+cd VPAL
+conda create -n VPAL python=3.8
+conda activate VPAL
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install -r requirements.txt
+git clone --recursive https://github.com/nvlabs/tiny-cuda-nn
+cd tiny-cuda-nn/bindings/torch
+python setup.py install
+cd ../../..
+pip install nerfacc -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/torch-1.13.0_cu117.html
+```
 
 # Dataset
 We use two datasets in our experiments. Example data (case #1 in our paper) is provided by this link. 
@@ -43,7 +45,9 @@ We use two datasets in our experiments. Example data (case #1 in our paper) is p
 # Usage
 After downloading the data, you could run the following command to train your model.
 
-  python train.py -n=case1_30v -c=./conf/VPAL.conf -D=./dataset/case1 --is_train --disable_fixview --disable_fixtime --nviews=30
+```bash
+python train.py -n=case1_30v -c=./conf/VPAL.conf -D=./dataset/case1 --is_train --disable_fixview --disable_fixtime --nviews=30
+```
 
 
 # TBC
