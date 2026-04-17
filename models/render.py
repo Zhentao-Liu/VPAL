@@ -215,13 +215,8 @@ def composite(rays, model, occgrid, transfer, sample_mode, chunksize, volume_ori
 
 def composite_equaldist(rays, model, occgrid, transfer, chunksize, volume_origin, volume_phy, render_step_size):
     is_dynamic = rays.shape[1] == 7
-    keys = ['proj']
-    if isinstance(model, PD_field):
-        keys.extend(['prob_proj', 'dynamic_proj'])
-    elif isinstance(model, SD_field):
-        keys.extend(['static_proj', 'dynamic_proj'])
-    elif isinstance(model, VPAL):
-        keys.extend(['prob_proj', 'static_proj', 'dynamic_proj', 'gated_static_proj', 'gated_dynamic_proj'])
+    keys = []
+    keys.extend(['proj', 'prob_proj', 'static_proj', 'dynamic_proj', 'gated_static_proj', 'gated_dynamic_proj'])
 
     split_rays = torch.split(rays, chunksize)
     render_result_chunks = {k: [] for k in keys}
