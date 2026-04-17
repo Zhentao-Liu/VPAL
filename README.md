@@ -39,6 +39,14 @@ cd ../../..
 pip install nerfacc -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/torch-1.13.0_cu117.html
 ```
 
+> **Note:** After installing nerfacc, please comment out the following lines in `nerfacc/estimators/occ_grid.py`:
+> ```python
+> # voxel coordinates [0, 1]^3 -> world
+> x = self.aabbs[lvl, :3] + x * (
+>     self.aabbs[lvl, 3:] - self.aabbs[lvl, :3]
+> )
+> ```
+
 # Dataset
 We use two datasets in our experiments. Example data (case #1 in our paper) is provided by [this link](https://drive.google.com/drive/folders/1faTv0EU0Y93vWnfv5s2cBTG4GCxIeds0?usp=sharing).
 
