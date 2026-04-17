@@ -11,4 +11,4 @@ imageio-ffmpeg
 
 # CUDA-only packages — install separately:
 # tinycudann: https://github.com/NVlabs/tiny-cuda-nn
-# nerfacc: pip install nerfacc -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/torch-2.0.0_cu118.html
+# nerfacc: pip install nerfacc
