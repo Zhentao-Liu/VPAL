@@ -2,7 +2,7 @@
 [Zhentao Liu](https://zhentao-liu.github.io/), Huangxuan Zhao, [Wenhui Qin](https://psi.bme.shanghaitech.edu.cn/), Zhenghong Zhou, [Xinggang Wang](https://xwcv.github.io/index.htm), [Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping#:~:text=Professor%20Wenping%20Wang.%20Alberta.%20Dr,%20Wang%20is%20Professor%20of%20Computer), [Xiaochun Lai](https://psi.bme.shanghaitech.edu.cn/), Chuangsheng Zheng, [Dinggang Shen](https://idea.bme.shanghaitech.edu.cn/), and [Zhiming Cui](https://shanghaitech-impact.github.io/)
 
 
-## [Arxiv](https://arxiv.org/abs/2405.10705)
+## [Paper](https://www.sciencedirect.com/science/article/pii/S136184152600157X?via=ihub)
 
 This is the official repo of our **MedIA 2026** paper "3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning", a NeRF-based framework for DSA vessel reconstruction.
 
